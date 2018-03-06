@@ -28,7 +28,7 @@
   },
   "lint-staged": {
     "*.js": [
-      "format",
+      "npm run ci-lint -- --fix",
       "git add"
     ]
   },
